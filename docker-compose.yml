@@ -142,7 +142,8 @@ services:
       - taiga
 
   taiga-gateway:
-    image: nginx:1.19-alpine
+    # image: nginx:1.19-alpine
+    image: nginx:latest
     ports:
       - "80:80"
     volumes:
